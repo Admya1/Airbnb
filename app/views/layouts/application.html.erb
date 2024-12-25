@@ -26,8 +26,9 @@
   <body>
    <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
+  <%if controller_name!= 'sessions' && controller_name!= 'registrations'%>
   <%= render 'layouts/header' %>
- 
+  <% end %>
     <%= yield %>
   </body>
 </html>

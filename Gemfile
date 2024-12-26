@@ -12,9 +12,11 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 gem 'devise', '~> 4.9', '>= 4.9.4'
+gem 'money-rails', '~> 1.12'
 gem "bootsnap", require: false
 gem "kamal", require: false
 gem "thruster", require: false
+gem 'faker'
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
